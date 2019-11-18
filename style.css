@@ -1,0 +1,33 @@
+.container {
+  height: 60vh;
+  background: url(https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSItXVizQrMVOGYKmDRFxxhfSorAmGXDI222L6eqtIkRJ7c01TZ) no-repeat;
+  background-size: 1500px 60vh;
+  }
+
+.container2 {
+  height: 100vh;
+  background: url(http://cdn.designbeep.com/wp-content/uploads/2013/01/1.vector-sunset.jpg) no-repeat center;
+  background-size: 1400px 100vh;
+}
+  /**/
+.menu{
+    height:40vh;
+  background-color:#225560;
+  display: flex;
+  justify-content: space-around;
+  flex-direction: row;
+  width: 450px;
+  align-items: center;
+  transform: translateX(-100%);
+  transition: transform 1s;
+}
+
+.menu a{
+  color:white;
+  text-decoration: none;
+  font-size: 18px;
+}
+
+.toggle{
+  transform: translateX(0%);
+}
